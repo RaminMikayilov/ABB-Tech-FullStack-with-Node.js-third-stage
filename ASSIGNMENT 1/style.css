@@ -1,0 +1,41 @@
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.categories div {
+  border: 1px solid #18cfab;
+  padding: 10px 15px;
+  cursor: pointer;
+  color: #717171;
+}
+
+.active {
+  background-color: #18cfab;
+  color: #fff !important;
+}
+
+.details {
+  display: flex;
+}
+
+.image {
+  width: 30%;
+}
+
+img {
+  width: 100%;
+}
+
+.text {
+    padding: 20px;
+}
